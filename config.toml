@@ -1,6 +1,6 @@
 baseURL = "localhost"
 languageCode = "en-us"
-title = "🔆 Zen Techie"
+title = "SourceApprentice"
 theme = "j-solarized"
 paginate = 500
 pygmentsStyle = "solarized-light" # solarized-light, -dark or -dark256

@@ -1,0 +1,3 @@
+[submodule "themes/j-solarized"]
+	path = themes/j-solarized
+	url = git@github.com:cognitiaclaeves/solar-theme-hugo.git

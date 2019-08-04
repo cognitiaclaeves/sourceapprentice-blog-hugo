@@ -1,0 +1,44 @@
+
+  <script>
+    /* https://stackoverflow.com/questions/574944/how-to-load-up-css-files-using-javascript:
+       "Using an external JavaScript (.js) file will cause a Flash of unstyled content (FOUC)"
+    */
+
+    var style_cookie_name = "style" ;
+    var style_cookie_duration = 30 ;
+    var style_domain = "{{ .Site.BaseURL }}";
+
+    function get_cookie ( cookie_name )
+    {
+      // https://www.thesitewizard.com/javascripts/cookies.shtml
+      var cookie_string = document.cookie ;
+      if (cookie_string.length != 0) {
+        var cookie_array = cookie_string.split( '; ' );
+        for (i = 0 ; i < cookie_array.length ; i++) {
+          cookie_value = cookie_array[i].match ( cookie_name + '=(.*)' );
+          if (cookie_value != null) {
+            return decodeURIComponent ( cookie_value[1] ) ;
+          }
+        }
+      }
+      return '' ;
+    }
+
+    var css_title = get_cookie(style_cookie_name) || 'light'
+
+    var link = document.createElement( "link" );
+    link.href = "{{ .Site.BaseURL }}css/chroma-solarized-" + css_title + '.css';
+    link.type = "text/css";
+    link.rel = "stylesheet";
+    link.media = "screen,print";
+    
+    document.getElementsByTagName( "head" )[0].appendChild( link );
+
+    var link = document.createElement( "link" );
+    link.href = "{{ .Site.BaseURL }}css/colors-" + css_title + '.css';
+    link.type = "text/css";
+    link.rel = "stylesheet";
+    link.media = "screen,print";
+
+    document.getElementsByTagName( "head" )[0].appendChild( link );
+  </script>

@@ -1,0 +1,14 @@
+{{ define "main" }}
+	{{ range .Paginator.Pages }}
+		<article class="post">
+			<h1><a href="{{ .Permalink }}">{{ .Title }}</a> {{ if .Draft }}(Draft){{ end }}</h1>
+			{{ partial "date-and-tags.html" . }}
+
+			<div class="post-content">
+				<p>{{ .Summary | plainify | safeHTML }} {{ if .Truncated }} … {{ end }}</p>
+			</div>
+		</article>
+	{{ end }}
+
+	{{ partial "pagination.html" . }}
+{{ end }}
