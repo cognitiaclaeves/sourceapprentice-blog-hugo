@@ -2,7 +2,7 @@
 title: AWS Amplify Console, Part 1
 date: 2019-07-20
 author: cognitiaclaeves
-tags: [reconstitute, blog v4, serverless blog, amplify console, fix]
+tags: [reconstitute, blog v4, serverless blog, amplify console]
 draft: true
 ---
 
@@ -37,9 +37,7 @@ I'm following this guide [for setting up hugo in AWS Amplify Console](https://th
 
 One issue I ran into [when attempting to set up my domain through the Amplify Console](https://docs.aws.amazon.com/amplify/latest/userguide/custom-domains.html#custom-domain-third-party) was that I was using Namecheap to host my DNS, not the two options (GoDaddy|Google Domains) that [were used as examples in the Amazon instructions](https://docs.aws.amazon.com/amplify/latest/userguide/howto-third-party-domains.html) - both of which didn't support ALIAS records. This was what my setup looked like:
 
-** FIX IMAGE
 ![Namecheap settings][namecheap settings]
-
 
 
 #### Using Images in Markdown
@@ -53,7 +51,7 @@ One issue I ran into [when attempting to set up my domain through the Amplify Co
 Later, I also found [this blog post](https://willschenk.com/articles/2018/building-a-hugo-site/) and [this one was also of interest to me](https://blog.webjeda.com/dark-theme-switch/).
 
 
-[namecheap settings]: https://drive.google.com/uc?id=1mHRWYBBWX-TODv9CXpDNPouFYLccxfz8
+[namecheap settings]: https://drive.google.com/uc?id=11LkWn5o-TlX0jMS7llmtM1v3-GpL5AUm
 
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTE0ODk5MDA0MDEsMTE4NjM0ODgwMywtMj
