@@ -1,4 +1,4 @@
-baseURL = "sourceapprentice.com"
+baseURL = "https://sourceapprentice.com/"
 
 [params]
   domain = "sourceapprentice.com"
