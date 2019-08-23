@@ -5,5 +5,7 @@
 
 		<div class="post-content">{{ .Content | safeHTML }}</div>
 	</article>
-	{{ partial "talkyard-comments.html" . }}
+	<comments>
+	    {{ partial "talkyard-comments.html" . }}    
+	</comments>
 {{ end }}
