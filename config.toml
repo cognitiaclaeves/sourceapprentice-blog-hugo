@@ -12,7 +12,7 @@ copyright = ""
   scheme = "light" # light, dark or gray
   description = "Linux, Containers ( Docker ), Orchestration ( Kubernetes ), DevOps (.*) -- Oh My!"
   dateFormat = "Jan 2, 2006"
-  talkyardServerUrl = "https://comments-for-sourcerapprentice-com.talkyard.net"
+  talkyardServerUrl = "https://comments-for-sourceapprentice-com.talkyard.net"
   talkyardScriptUrl = "https://c1.ty-cdn.net/-/talkyard-comments.min.js"
 
 [permalinks]
