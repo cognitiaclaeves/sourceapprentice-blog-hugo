@@ -11,7 +11,9 @@ copyright = ""
   domain = "localhost"
   scheme = "light" # light, dark or gray
   description = "Linux, Containers ( Docker ), Orchestration ( Kubernetes ), DevOps (.*) -- Oh My!"
-  dateFormat = "Jan 2, 2006"
+  dateFormat = "Jan 2, 2006"\
+  talkyardServerUrl = "https://comments-for-sourcerapprentice-com.talkyard.net"
+  talkyardScriptUrl = "https://c1.ty-cdn.net/-/talkyard-comments.min.js"
 
 [permalinks]
   blog = "/:filename/"
