@@ -19,6 +19,7 @@ draft: true
     * Related posts
       * How I coded related posts
     * Forestry.io !!
+    * Mirror gitlab repo to public github repo
 * Unimplemented Children Posts
   * About Me
   * About Site
