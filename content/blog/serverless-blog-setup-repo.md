@@ -3,6 +3,7 @@ title: "Serverless Blog Setup - The Repo"
 date: 2019-08-03
 tags: [ blogging, lifestyle, walkthrough, high-level, serverless blog, git, gitlab, unimplemented children ]
 comments: True
+discussionId: serverless-blog-setup-the-repo
 ---
 
 Most of the static blogs I've seen on the internet have their content saved in a git repo of some sort. In this blog post, I'm covering how I set up my blog repos. I put some thought into it because I want to be able to make blog changes from a compromised terminal without compromising my blog. (Not that I would ever knowingly do this, that's just the standard of security that I want to aim for: I got the idea while exploring play-with-docker.com -- there is a warning when you login that any creds you use are not safe -- my solution for this was to create a user whose credentials could be compromised without compromising the root of the git repo that user would be contributing to.) Considering I'm using 2nd factor for all the accounts, this approach should really be overkill. On the other hand, it's probably a way that someone could consider setting such a thing up in an enterprise -- there is a separation of concerns between the owner and any of the updaters -- so it gives me an opportunity to practice such a thing in my personal project.
