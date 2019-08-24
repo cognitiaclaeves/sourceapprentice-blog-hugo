@@ -23,6 +23,7 @@ draft: true
 * Unimplemented Children Posts
   * About Me
   * About Site
+    * Design Considerations
   * Blogolution - child links
     * ? - (Amplify links are drafts)
   * Serverless blog - child links
