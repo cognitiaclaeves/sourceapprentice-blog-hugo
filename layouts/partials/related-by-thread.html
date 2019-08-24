@@ -1,5 +1,6 @@
-{{ if .thread }}
-    {{ $related := .Site.RegularPages.RelatedTo ( keyVals "thread" .thread ) }}
+{{ if .Params.thread }}
+    <threadrelated>
+    {{ $related := .Site.RegularPages.RelatedTo ( keyVals "thread" .Params.thread ) }}
     {{ with $related }}
         <h3>Related By Thread</h3>
         <ul>
@@ -8,4 +9,5 @@
             {{ end }}
         </ul>
     {{ end }}
+    </threadrelated>
 {{ end }}
