@@ -11,12 +11,13 @@ draft: true
 * New Posts
   * Penny Hockey
   * **serverless-blog-creation**
+    * Getting the domain name right for AWS Amplify Namecheap
+    * Setting up test site
     * Comments with TalkYard
       * Setting discussionId
       * Toggling comments on/off
     * Related posts
       * How I coded related posts
-    * Getting the domain name right for AWS Amplify Namecheap
     * Forestry.io !!
 * Unimplemented Children Posts
   * About Me
@@ -26,8 +27,6 @@ draft: true
   * Serverless blog - child links
     * 2x2nd factor - Junking of Nexus 5X
     * How to Set Up AWS Amplify Hugo Blog
-  * 
-    * 
 * Old Ideas - Some of these look like ZT
   * Disclaimer?
   * Core Values in 10 ft tall letters
