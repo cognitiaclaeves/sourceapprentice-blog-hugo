@@ -20,10 +20,16 @@ draft: true
       * How I coded related posts
     * Forestry.io !!
     * Mirror gitlab repo to public github repo
+    * Hugo Styles - Code blocks
 * Unimplemented Children Posts
   * About Me
   * About Site
-    * Design Considerations
+    * Design Consideration
+      * Minimalist/Functional UX
+        * Eventually consistent styling
+      * Theme change: dark/light
+      * Theme choice: Solarized
+      * Thread / Series
   * Blogolution - child links
     * ? - (Amplify links are drafts)
   * Serverless blog - child links
