@@ -2,7 +2,7 @@
     <hr />
     <threadrelated>
     {{ $related := .Site.RegularPages.RelatedTo ( keyVals "thread" .Params.thread ) }}
-    <h1>Related By Thread: {{ .Params.thread }}</h1>
+    <h1>Related By Series: {{ .Params.thread }}</h1>
     {{ with $related }}
         <ul>
             {{ range . }}
