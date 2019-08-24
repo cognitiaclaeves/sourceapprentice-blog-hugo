@@ -5,21 +5,32 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: datetime
   name: date
   label: date
+  config:
+    required: true
 - type: text
   name: author
   label: author
+  default: cognitiaclaeves
 - type: list
   name: tags
   label: tags
-- type: boolean
-  name: comments
-  label: comments
-- type: text
-  name: discussionId
-  label: discussionId
+- name: thread
+  type: text
+  config:
+    required: false
+  label: thread
 - type: text
   name: summary
   label: summary
+- type: boolean
+  name: comments
+  label: comments
+  default: true
+- type: text
+  name: discussionId
+  label: discussionId
