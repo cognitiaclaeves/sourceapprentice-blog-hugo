@@ -22,7 +22,7 @@ draft: true
   * About Me
   * About Site
   * Blogolution - child links
-    * ?
+    * ? - (Amplify links are drafts)
   * Serverless blog - child links
     * 2x2nd factor - Junking of Nexus 5X
     * How to Set Up AWS Amplify Hugo Blog
