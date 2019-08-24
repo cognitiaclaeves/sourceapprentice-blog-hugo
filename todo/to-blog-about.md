@@ -16,11 +16,15 @@ draft: true
     * Comments with TalkYard
       * Setting discussionId
       * Toggling comments on/off
+      * Don't forget to add test site to domain list!
     * Related posts
       * How I coded related posts
     * Forestry.io !!
+    * Set up media for forestry.io
     * Mirror gitlab repo to public github repo
     * Hugo Styles - Code blocks
+
+      ***
 * Unimplemented Children Posts
   * About Me
   * About Site
@@ -35,6 +39,8 @@ draft: true
   * Serverless blog - child links
     * 2x2nd factor - Junking of Nexus 5X
     * How to Set Up AWS Amplify Hugo Blog
+
+      ***
 * Old Ideas - Some of these look like ZT
   * Disclaimer?
   * Core Values in 10 ft tall letters
