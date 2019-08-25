@@ -1,0 +1,14 @@
+{{ if .Params.thread }}
+    <hr />
+    <threadrelated>
+    {{ $related := .Site.RegularPages.RelatedTo ( keyVals "thread" .Params.thread ) }}
+    <h1>Related By Series: {{ .Params.thread }}</h1>
+    {{ with $related }}
+        <ul>
+            {{ range . }}
+            <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+    {{ end }}
+    </threadrelated>
+{{ end }}

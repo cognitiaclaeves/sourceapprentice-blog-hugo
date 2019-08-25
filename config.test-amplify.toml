@@ -1,0 +1,4 @@
+baseURL = "https://test.d1qzcdre2mr5ze.amplifyapp.com/"
+
+[params]
+  domain = "test.d1qzcdre2mr5ze.amplifyapp.com/"

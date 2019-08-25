@@ -1,4 +1,4 @@
 baseURL = "https://sourceapprentice.com/"
 
 [params]
-  domain = "sourceapprentice.com"
+  domain = "sourceapprentice.com" # Style cookie won't work without domain name
