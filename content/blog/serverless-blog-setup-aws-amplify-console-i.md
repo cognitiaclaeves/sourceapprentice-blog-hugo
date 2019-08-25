@@ -26,3 +26,9 @@ Notice that Github is assumed. My repo was in Gitlab, so I ended up mirroring th
 I became pretty confused when trying to figure out how to get the domain name working. As a result, I may not have documented what transpired very well. One issue I ran into [when attempting to set up my domain through the Amplify Console](https://docs.aws.amazon.com/amplify/latest/userguide/custom-domains.html#custom-domain-third-party) was that I was using Namecheap to host my DNS, not the two options (GoDaddy|Google Domains) that [were used as examples in the Amazon instructions](https://docs.aws.amazon.com/amplify/latest/userguide/howto-third-party-domains.html) - both of which didn't support ALIAS records. This was what my working setup looked like:
 
 ![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/namecheap-adv-domain-for-amplify.png)
+
+## Ok, Now, to HuGo
+
+[This crash course got me started](https://zwbetz.com/make-a-hugo-blog-from-scratch/).
+
+Later, I also found [this blog post](https://willschenk.com/articles/2018/building-a-hugo-site/) and [this one was also of interest to me](https://blog.webjeda.com/dark-theme-switch/).
