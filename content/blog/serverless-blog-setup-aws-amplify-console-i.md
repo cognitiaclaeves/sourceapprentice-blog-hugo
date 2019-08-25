@@ -29,6 +29,6 @@ I became pretty confused when trying to figure out how to get the domain name wo
 
 ## Ok, Now, to HuGo
 
-[This crash course got me started](https://zwbetz.com/make-a-hugo-blog-from-scratch/).
+[This crash course got me started](https://zwbetz.com/make-a-hugo-blog-from-scratch/ "A simple and cleanly styled Hugo blog").
 
-Later, I also found [this blog post](https://willschenk.com/articles/2018/building-a-hugo-site/) and [this one was also of interest to me](https://blog.webjeda.com/dark-theme-switch/).
+Later, I also found [this blog post](https://willschenk.com/articles/2018/building-a-hugo-site/ "Hugo blog that uses Bootstrap"), which shows construction of a Hugo site using bootstrap, and [this one was also of interest to me](https://blog.webjeda.com/dark-theme-switch/ "Dark Theme Switch"), as I had planned on having a switchable light/dark theme. Finally, later, I found [this blog](https://regisphilibert.com/blog/2018/04/hugo-optmized-relashionships-with-related-content/ "Stylin' hugo blog"), which seems to be a very rich presentation for a Hugo site designed by someone who really knows what they're doing.
