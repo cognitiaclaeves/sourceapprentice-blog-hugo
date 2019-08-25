@@ -14,7 +14,7 @@ title = "Serverless Blog Setup - AWS Amplify Console I"
 
 I wasn't really sure how Amplify Console was going to work out for me, so I took a shortcut to testing out a [proof of concept](https://aws.amazon.com/amplify/console/getting-started/ "Get Started with Amplify Console"):
 
-<img src="https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/hugo-quickstart.png" style="width: 30%">
+<img src="https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/hugo-quickstart.png" style="width: 30%; align: left">
 
  ![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/hugo-quickstart.png)
 
