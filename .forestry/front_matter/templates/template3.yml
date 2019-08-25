@@ -11,12 +11,19 @@ fields:
 - type: text
   name: author
   label: author
+  default: cognitiaclaeves
 - type: list
   name: tags
   label: tags
+  default:
+  - walkthrough
+  - blogging
+  - high-level
+  - serverless blog
 - type: text
   name: thread
   label: thread
+  default: serverless-blog-setup
 - type: text
   name: summary
   label: summary
@@ -26,20 +33,3 @@ fields:
 - type: text
   name: discussionId
   label: discussionId
-- name: serverless-blog-tags
-  type: field_group
-  config: {}
-  fields:
-  - name: walkthrough
-    type: tag_list
-    default: []
-    label: walkthrough
-  - name: blogging
-    type: tag_list
-    default: []
-    label: blogging
-  - name: serverless_blog
-    type: tag_list
-    default: []
-    label: serverless blog
-  label: serverless-blog-tags
