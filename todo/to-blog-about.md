@@ -11,7 +11,7 @@ draft: true
 * New Posts
   * Penny Hockey
   * **serverless-blog-creation**
-    * Getting the domain name right for AWS Amplify Namecheap
+    * XX Getting the domain name right for AWS Amplify Namecheap
     * Setting up test site
     * Comments with TalkYard
       * Setting discussionId
@@ -21,8 +21,8 @@ draft: true
       * How I coded related posts
     * Forestry.io !!
       * [https://forestry.io/docs/git-sync/manual-setup/#public-key](https://forestry.io/docs/git-sync/manual-setup/#public-key "https://forestry.io/docs/git-sync/manual-setup/#public-key")
-    * Set up media for forestry.io
-    * Mirror gitlab repo to public github repo
+    * XX Set up media for forestry.io
+    * XX Mirror gitlab repo to public github repo
     * Hugo Styles - Code blocks
     * Auto image handling
       * [https://aws.amazon.com/solutions/serverless-image-handler/](https://aws.amazon.com/solutions/serverless-image-handler/ "https://aws.amazon.com/solutions/serverless-image-handler/")
@@ -43,7 +43,7 @@ draft: true
     * ? - (Amplify links are drafts)
   * Serverless blog - child links
     * 2x2nd factor - Junking of Nexus 5X
-    * How to Set Up AWS Amplify Hugo Blog
+    * XX How to Set Up AWS Amplify Hugo Blog
 
       ***
 * To Blog About (in StackEdit)  
