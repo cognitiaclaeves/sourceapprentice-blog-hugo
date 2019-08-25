@@ -7,6 +7,12 @@
     var style_cookie_name = "style" ;
     var style_cookie_duration = 30 ;
     var style_domain = "{{ .Site.BaseURL }}";
+    var base_URL = "{{ .Site.BaseURL }}";
+
+    // handle test instances running as localhost
+    if (base_URL.includes('localhost')) {
+      base_URL = "/"
+    }
 
     function get_cookie ( cookie_name )
     {
@@ -27,7 +33,7 @@
     var css_title = get_cookie(style_cookie_name) || 'light'
 
     var link = document.createElement( "link" );
-    link.href = "{{ .Site.BaseURL }}css/chroma-solarized-" + css_title + '.css';
+    link.href = base_URL + "css/chroma-solarized-" + css_title + '.css';
     link.type = "text/css";
     link.rel = "stylesheet";
     link.media = "screen,print";
@@ -35,7 +41,7 @@
     document.getElementsByTagName( "head" )[0].appendChild( link );
 
     var link = document.createElement( "link" );
-    link.href = "{{ .Site.BaseURL }}css/colors-" + css_title + '.css';
+    link.href = base_URL + "css/colors-" + css_title + '.css';
     link.type = "text/css";
     link.rel = "stylesheet";
     link.media = "screen,print";
