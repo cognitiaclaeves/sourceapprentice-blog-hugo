@@ -1,10 +1,11 @@
 +++
 author = "cognitiaclaeves"
 comments = true
-date = "2019-07-20T05:00:00+00:00"
+date = "2019-08-04"
 discussionId = ""
 draft = true
 lastmod = "2019-08-25T04:00:00+00:00"
+orig-date = "2019-07-20T05:00:00+00:00"
 summary = ""
 tags = ["walkthrough", "blogging", "high-level", "serverless blog"]
 thread = "serverless-blog-setup"
