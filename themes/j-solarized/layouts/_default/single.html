@@ -1,8 +1,9 @@
 {{ define "main" }}
 	<article class="post">
-		<h1><a href="{{ .Permalink }}">{{ .Title }}</a> {{ if .Draft }}(Draft){{ end }}</h1>
+		<h1><a href="{{ .RelPermalink }}">{{ .Title }}</a> {{ if .Draft }}(Draft){{ end }}</h1>
 		{{ partial "date-and-tags.html" . }}
 
 		<div class="post-content">{{ .Content | safeHTML }}</div>
 	</article>
+	{{ partial "after-post.html" . }}
 {{ end }}

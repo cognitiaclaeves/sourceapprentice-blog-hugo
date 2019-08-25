@@ -1,0 +1,40 @@
+---
+label: Template2
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- type: datetime
+  name: date
+  label: date
+  config:
+    required: true
+- type: text
+  name: author
+  label: author
+  default: cognitiaclaeves
+- type: list
+  name: tags
+  label: tags
+- name: thread
+  type: text
+  config:
+    required: false
+  label: thread
+- type: text
+  name: summary
+  label: summary
+- type: boolean
+  name: comments
+  label: comments
+  default: true
+- type: text
+  name: discussionId
+  label: discussionId
+pages:
+- content/blog/serverless-blog-setup-mirroring-gitlab-repo-to-github.md
+- content/blog/serverless-blog-setup-media.md
+- content/blog/serverless-blog-setup-repo.md

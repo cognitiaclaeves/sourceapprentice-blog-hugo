@@ -1,4 +1,4 @@
-baseURL = "localhost"
+baseURL = "http://localhost/"
 languageCode = "en-us"
 title = "SourceApprentice"
 theme = "j-solarized"
@@ -12,11 +12,17 @@ copyright = ""
   scheme = "light" # light, dark or gray
   description = "Linux, Containers ( Docker ), Orchestration ( Kubernetes ), DevOps (.*) -- Oh My!"
   dateFormat = "Jan 2, 2006"
-  talkyardServerUrl = "https://comments-for-sourcerapprentice-com.talkyard.net"
+  talkyardServerUrl = "https://comments-for-sourceapprentice-com.talkyard.net"
   talkyardScriptUrl = "https://c1.ty-cdn.net/-/talkyard-comments.min.js"
 
 [permalinks]
   blog = "/:filename/"
+
+[related]
+    [[related.indices]]
+        name = "thread" # The name of the indice, same as Front Matter's .Param key.
+        weight = 1 # We don't really need this, but omitting it would disable the indice.
+        includeNewer = true # Here our relationship is timeless! This prevents Hugo from ignoring newer posts.
 
 # See https://feathericons.com/
 # The value of pre is the icon name

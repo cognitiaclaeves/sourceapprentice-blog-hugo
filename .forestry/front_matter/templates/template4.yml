@@ -1,0 +1,55 @@
+---
+label: Serverless Blog Series
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: author
+  label: author
+  default: cognitiaclaeves
+- type: list
+  name: tags
+  label: tags
+  default:
+  - walkthrough
+  - blogging
+  - high-level
+  - serverless blog
+- type: text
+  name: thread
+  label: thread
+  default: serverless-blog-setup
+- type: text
+  name: summary
+  label: summary
+- name: lastmod
+  type: datetime
+  label: last modified
+  description: Last modification date
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: orig_date
+  type: datetime
+  label: orig_date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- type: boolean
+  name: comments
+  label: comments
+- type: text
+  name: discussionId
+  label: discussionId
+pages:
+- content/blog/serverless-blog-setup-aws-amplify-console-i.md
