@@ -1,4 +1,4 @@
-baseURL = "localhost"
+baseURL = "http://localhost/"
 languageCode = "en-us"
 title = "SourceApprentice"
 theme = "j-solarized"
