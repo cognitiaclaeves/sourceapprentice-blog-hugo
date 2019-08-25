@@ -32,3 +32,11 @@ I became pretty confused when trying to figure out how to get the domain name wo
 [This crash course got me started](https://zwbetz.com/make-a-hugo-blog-from-scratch/ "A simple and cleanly styled Hugo blog").
 
 Later, I also found [this blog post](https://willschenk.com/articles/2018/building-a-hugo-site/ "Hugo blog that uses Bootstrap"), which shows construction of a Hugo site using bootstrap, and [this one was also of interest to me](https://blog.webjeda.com/dark-theme-switch/ "Dark Theme Switch"), as I had planned on having a switchable light/dark theme. Finally, later, I found [this blog](https://regisphilibert.com/blog/2018/04/hugo-optmized-relashionships-with-related-content/ "Stylin' hugo blog"), which seems to be a very rich presentation for a Hugo site designed by someone who really knows what they're doing.
+
+## Hugo++
+
+I'm actually updating this content about a month after I originally wrote it. I've become pretty comfortable with modifying the Hugo templates. To date, I've implemented ideas that I saw in the crash course into my own spin-off of a Solaris Hugo theme, added the handling of a last modified date, when it appears in the front matter, light/dark CSS switching capability, and just today, the capability of listing articles that are part of the same series of articles, in order to make it is easy to navigate as possible when I write a series, like I did for the steps I took to set up a server-less blog. So far I've found the experience pretty enjoyable. I don't seem to get stuck for long, and the solutions appear to be pretty clean. All of the changes I've made to date are in templates -- and those changes have felt easier and cleaner then when I made similar changes in Jekyll.
+
+## Writing Tools
+
+I've been taking as many short-cuts as possible with this project -- so I've had my ear to the ground looking for options for tools to handle WYSIWYG Markdown publishing. Originally, I started out using StackEdit.io. For my purposes, though, SE was a little kludgy, and there came a time when I couldn't figure out why I couldn't see a post from SE. So I was pretty stoked when I found Forestry.io, which seemed specifically designed for the purpose I wanted to use it for: as a CMS for statically generated sites! I'll be writing a post on what I needed to do to get Forest.io up and running at a later date.
