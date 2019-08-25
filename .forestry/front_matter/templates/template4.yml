@@ -36,6 +36,15 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: orig_date
+  type: datetime
+  label: orig_date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 - type: boolean
   name: comments
   label: comments
