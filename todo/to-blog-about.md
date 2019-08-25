@@ -20,6 +20,7 @@ draft: true
     * Related posts
       * How I coded related posts
     * Forestry.io !!
+      * [https://forestry.io/docs/git-sync/manual-setup/#public-key](https://forestry.io/docs/git-sync/manual-setup/#public-key "https://forestry.io/docs/git-sync/manual-setup/#public-key")
     * Set up media for forestry.io
     * Mirror gitlab repo to public github repo
     * Hugo Styles - Code blocks
