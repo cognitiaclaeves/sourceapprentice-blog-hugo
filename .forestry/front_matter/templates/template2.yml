@@ -37,5 +37,4 @@ fields:
 pages:
 - content/blog/serverless-blog-setup-mirroring-gitlab-repo-to-github.md
 - content/blog/serverless-blog-setup-media.md
-- content/blog/introducing-amplify-console.md
 - content/blog/serverless-blog-setup-repo.md
