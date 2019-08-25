@@ -24,10 +24,10 @@ sections:
   label: To Do
   create: all
   match: "**/*"
-upload_dir: static/uploads
-public_path: "/uploads"
+upload_dir: ''
+public_path: https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media
 front_matter_path: ''
-use_front_matter_path: false
+use_front_matter_path: 
 file_template: ":filename:"
 build:
   preview_env:
