@@ -10,14 +10,15 @@ thread = "serverless-blog-setup"
 title = "Serverless Blog Setup - AWS Amplify Console I"
 
 +++
-## 
-
-I wasn't really sure how Amplify Console was going to work out for me, so I took a shortcut to testing out a [proof of concept](https://aws.amazon.com/amplify/console/getting-started/ "Get Started with Amplify Console"):
+I wasn't really sure how Amplify Console was going to work out for me, so I took a shortcut to testing out a [proof of concept](https://aws.amazon.com/amplify/console/getting-started/ "Get Started with Amplify Console"). When I started thinking about this, I had planned on building my own server-less components using Flask, Pelican, and a few clever lambdas. But I've also been meaning to start working with go -- so I figured I could give Hugo a try:
 
 <img src="https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/hugo-quickstart.png" style="width: 30%; float: left">
 
+This got me here:
 
-'m following this guide [for setting up hugo in AWS Amplify Console](https://thetestlabs.io/post/continuous-deployment-for-hugo-with-aws-amplify). 
+![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/amplify-console-hugo-poc.png)
+
+Notice that Github is assumed. My repo was in Gitlab, so I ended up mirroring the repo to Github. While the eventually-consistent process was good enough for a POC, I knew it wouldn't be long before I started hating on myself if I actually implemented it this way. It wasn't long before I had a working server-less blog that would update when I pushed to master. Having that blog on my own domain name would be another matter.
 
 ## DNS Settings
 
