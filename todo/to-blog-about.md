@@ -23,8 +23,9 @@ draft: true
     * Set up media for forestry.io
     * Mirror gitlab repo to public github repo
     * Hugo Styles - Code blocks
+    * Auto image handling
+      * [https://aws.amazon.com/solutions/serverless-image-handler/](https://aws.amazon.com/solutions/serverless-image-handler/ "https://aws.amazon.com/solutions/serverless-image-handler/")
     * CloudFlare?
-      * 
       * [https://codewithhugo.com/a-tiny-case-study-about-migrating-to-netlify-when-disaster-strikes-at-github-featuring-cloudflare/](https://codewithhugo.com/a-tiny-case-study-about-migrating-to-netlify-when-disaster-strikes-at-github-featuring-cloudflare/ "https://codewithhugo.com/a-tiny-case-study-about-migrating-to-netlify-when-disaster-strikes-at-github-featuring-cloudflare/")
 
         ***
