@@ -40,3 +40,11 @@ I'm actually updating this content about a month after I originally wrote it. I'
 ## Writing Tools
 
 I've been taking as many short-cuts as possible with this project -- so I've had my ear to the ground looking for options for tools to handle WYSIWYG Markdown publishing. Originally, I started out using StackEdit.io. For my purposes, though, SE was a little kludgy, and there came a time when I couldn't figure out why I couldn't see a post from SE. So I was pretty stoked when I found Forestry.io, which seemed specifically designed for the purpose I wanted to use it for: as a CMS for statically generated sites! I'll be writing a post on what I needed to do to get Forest.io up and running at a later date.
+
+## Some Theme-Switching Ideas
+
+* [simple? Javascript approach](https://www.thesitewizard.com/javascripts/change-style-sheets.shtml "Simpler Javascript only theme switching approach")
+  * ( I ended up modifying this to suit my needs )
+* [Much prettier bootstrap version](https://github.com/nathancday/min_night/blob/master/layouts/partials/js.html "Pretty Bootstrap theme with light and dark switch")
+  * ( But no easy way to make it Solarized )
+* [Bootstrap Solarization](https://bootswatch.com/solar/ "Solarized Bootstrap theme")
