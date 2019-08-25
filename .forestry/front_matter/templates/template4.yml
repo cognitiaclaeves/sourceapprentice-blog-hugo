@@ -33,3 +33,5 @@ fields:
 - type: text
   name: discussionId
   label: discussionId
+pages:
+- content/blog/serverless-blog-setup-aws-amplify-console-i.md
