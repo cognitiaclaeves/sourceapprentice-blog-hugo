@@ -39,4 +39,4 @@ With the correct permission:
 
 Again: Had to refresh the screen.
 
-And of course, everything should be visible in Github.
+And of course, everything should be visible in Github..
