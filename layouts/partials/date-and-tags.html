@@ -1,7 +1,8 @@
 {{ $dateTime := .PublishDate.Format "2006-01-02" }}
 {{ $lastMod := .Lastmod.Format "2006-01-02" }}
 {{ $dateFormat := .Site.Params.dateFormat | default "Jan 2, 2006" }}
-{{ .Site.Params.svg_calendar }} <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time> &nbsp;
+{{ $data_type := .Site.Params.svg_data_type }}
+<i {{ $data_type }}="calendar"></i> <time datetime="{{ $dateTime }}">{{ .PublishDate.Format $dateFormat }}</time> &nbsp;
 {{ if ne $lastMod $dateTime }}
  (last update: {{ .Lastmod.Format $dateFormat}}) &nbsp;
 {{ end }}
