@@ -14,6 +14,7 @@ copyright = ""
   dateFormat = "Jan 2, 2006"
   talkyardServerUrl = "https://comments-for-sourceapprentice-com.talkyard.net"
   talkyardScriptUrl = "https://c1.ty-cdn.net/-/talkyard-comments.min.js"
+  svg_data_type = "data-feather"
   [[params.svg_icons]]
     calendar = "<i data-feather=\"calendar\"></i>"
     author = "<i data-feather=\"feather\"></i>"
