@@ -1,3 +1,9 @@
 [submodule "themes/j-solarized"]
 	path = themes/j-solarized
 	url = git@github.com:cognitiaclaeves/solar-theme-hugo.git
+[submodule "themes/min_night"]
+	path = themes/min_night
+	url = git@github.com:cognitiaclaeves/min_night.git
+[submodule "themes/j-solarized-2"]
+	path = themes/j-solarized-2
+	url = git@github.com:cognitiaclaeves/solar-theme-hugo.git
