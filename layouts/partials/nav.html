@@ -1,7 +1,7 @@
 <div id="nav-border" class="container">
   <nav id="nav" class="nav justify-content-center">
   {{ $data_type := .Site.svg_icons.data_type }}
-  {{ /* Different icon sets can have different 'data types' that work with their JS */ }}
+  {{/* Different icon sets can have different 'data types' that work with their JS */}}
   {{ range .Site.Menus.main }}
     {{ $icon := printf "<i %s=\"%s\"></i>" $data_type .Pre }}
     {{ $text := print $icon " " .Name | safeHTML }}
