@@ -18,8 +18,8 @@ copyright = ""
   svg_calendar = "calendar"
   # svg_calendar = "<i data-feather=\"calendar\"></i>"
   # svg_author = "<i data-feather=\"feather\"></i>"
-  svg_author = "<i data-feather=\"aperture\"></i>"
-  svg_tag = "<i data-feather=\"tag\"></i>"
+  svg_author = "aperture"
+  svg_tag = "tag"
   
 [permalinks]
   blog = "/:filename/"
