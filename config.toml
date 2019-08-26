@@ -52,5 +52,5 @@ copyright = ""
     url = "/about/"
     weight = 4
 
-[taxonomies]
-  tag = "tags"
+#[taxonomies]
+#  tag = "tags"
