@@ -16,9 +16,7 @@ copyright = ""
   talkyardScriptUrl = "https://c1.ty-cdn.net/-/talkyard-comments.min.js"
   svg_data_type = "data-feather"
   svg_calendar = "calendar"
-  # svg_calendar = "<i data-feather=\"calendar\"></i>"
-  # svg_author = "<i data-feather=\"feather\"></i>"
-  svg_author = "aperture"
+  svg_author = "feather"
   svg_tag = "tag"
   
 [permalinks]
