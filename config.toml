@@ -14,13 +14,12 @@ copyright = ""
   dateFormat = "Jan 2, 2006"
   talkyardServerUrl = "https://comments-for-sourceapprentice-com.talkyard.net"
   talkyardScriptUrl = "https://c1.ty-cdn.net/-/talkyard-comments.min.js"
-  svg_data_type = "data-feather"
-  [[params.svg_icons]]
-    calendar = "<i data-feather=\"calendar\"></i>"
-    author = "<i data-feather=\"feather\"></i>"
-    tag = "<i data-feather=\"tag\"></i>"
-    data_type = "data-feather"
-
+  svg_data_type = "data-feather-not"
+  svg_calendar = "<i data-feather=\"calendar\"></i>"
+  # svg_author = "<i data-feather=\"feather\"></i>"
+  svg_author = "<i data-feather=\"aperture\"></i>"
+  svg_tag = "<i data-feather=\"tag\"></i>"
+  
 [permalinks]
   blog = "/:filename/"
 
