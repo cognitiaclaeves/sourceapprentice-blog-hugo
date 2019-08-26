@@ -6,6 +6,7 @@ paginate = 500
 pygmentsStyle = "solarized-light" # solarized-light, -dark or -dark256
 pygmentsUseClasses = "True"
 copyright = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "public/"]
 
 [params]
   domain = "localhost"
@@ -18,7 +19,15 @@ copyright = ""
   svg_calendar = "calendar"
   svg_author = "feather"
   svg_tag = "tag"
-  
+
+  accent = "#386890" # dark colors do best
+  backgroundColor = "#f5f5f5"
+  font = "Mina" # should match the name on Google Fonts!
+  highlight = true
+  highlightStyle = "lakeside-light" # make this match accent
+  highlightLanguages = ["r", "bash", "go"]
+
+
 [permalinks]
   blog = "/:filename/"
 
