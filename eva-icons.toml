@@ -1,0 +1,29 @@
+[svg_icons]
+    calendar = "<i data-eva="calendar-outline"></i>"
+    author = "<i data-eva="edit-2-outline"></i>"
+    tag = "<i data-eva="hash-outline"></i>"
+    data_type = "data-eva"
+
+# See https://akveo.github.io/eva-icons/#/?type=outline
+# The value of pre is the icon name
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = "home-outline"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    pre = "edit-outline"
+    url = "/blog/"
+    weight = 2
+  [[menu.main]]
+    name = "Tags"
+    pre = "hash-outline"
+    url = "/tags/"
+    weight = 3
+  [[menu.main]]
+    name = "About"
+    pre = "info-outline"
+    url = "/about/"
+    weight = 4
