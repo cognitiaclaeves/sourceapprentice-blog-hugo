@@ -49,9 +49,9 @@ copyright = ""
     weight = 4
 
 [svg_icons]
-    calendar = "<i data-feather="calendar"></i>"
-    author = "<i data-feather="feather"></i>"
-    tag = "<i data-feather="tag"></i>"
+    calendar = "<i data-feather=\"calendar\"></i>"
+    author = "<i data-feather=\"feather\"></i>"
+    tag = "<i data-feather=\"tag\"></i>"
     data_type = "data-feather"
 
 [taxonomies]
