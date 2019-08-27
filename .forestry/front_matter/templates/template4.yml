@@ -52,5 +52,6 @@ fields:
   name: discussionId
   label: discussionId
 pages:
+- content/about/the-site.md
 - content/blog/serverless-blog-setup-test-site.md
 - content/blog/serverless-blog-setup-aws-amplify-console-i.md

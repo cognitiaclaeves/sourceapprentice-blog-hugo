@@ -1,6 +1,14 @@
 ---
 title: The Site
 date: 2019-07-21T22:30:21.000+00:00
+author: cognitiaclaeves
+comments: false
+tags: []
+lastmod: 2019-08-27T21:00:00+00:00
+thread: ''
+summary: ''
+orig_date: 
+discussionId: ''
 
 ---
 This blog is written to share high-level ideas and implementations concerning dev-ops related topics. The blog is generated from its markdown source stored in GitLab by Hugo, powered by AWS Amplify -- in other words, the blog and its content are completely server-less. I use forestry.io to actually write the content. There is a [series on this site](../serverless-blog-setup-repo/ "How I built this blog") that details how I built the blog.
