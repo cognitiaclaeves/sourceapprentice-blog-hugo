@@ -1,6 +1,7 @@
 baseURL = "http://localhost/"
 languageCode = "en-us"
 title = "SourceApprentice"
+description = "An easy reading Hugo blog with night-mode."
 theme = "j-solarized"
 paginate = 500
 pygmentsStyle = "solarized-light" # solarized-light, -dark or -dark256
@@ -27,9 +28,14 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "public/"]
   highlightStyle = "lakeside-light" # make this match accent
   highlightLanguages = ["r", "bash", "go"]
 
+  author = "Cogz"
+  # description = "An easy reading Hugo blog with night-mode."
+  logo = "favicon/android-chrome-192x192.png"
+
 
 [permalinks]
   blog = "/:filename/"
+  post = "/:year/:month/:day/:slug/"
 
 [related]
     [[related.indices]]
@@ -39,27 +45,36 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "public/"]
 
 # See https://feathericons.com/
 # The value of pre is the icon name
-[menu]
-  [[menu.main]]
-    name = "Home"
-    pre = "home"
-    url = "/"
+
+[[menu.main]]
+  name = "Home"
+  pre = "home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Blog"
+  pre = "edit"
+  url = "/blog/"
+  weight = 2
+
+[[menu.main]]
+  name = "Tags"
+  pre = "tag"
+  url = "/tags/"
+  weight = 3
+
+[[menu.main]]
+  name = "About"
+  pre = "info"
+  url = "/about/"
+  weight = 4
+
+# Note: At least one menu.icon entry needed for day/night switch in min_night theme
+[[menu.icon]]
+    url = "https://twitter.com/zenandi"
+    name = "fab fa-twitter"
     weight = 1
-  [[menu.main]]
-    name = "Blog"
-    pre = "edit"
-    url = "/blog/"
-    weight = 2
-  [[menu.main]]
-    name = "Tags"
-    pre = "tag"
-    url = "/tags/"
-    weight = 3
-  [[menu.main]]
-    name = "About"
-    pre = "info"
-    url = "/about/"
-    weight = 4
 
 #[taxonomies]
 #  tag = "tags"
