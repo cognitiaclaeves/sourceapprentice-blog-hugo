@@ -11,6 +11,8 @@ draft: true
 * New Posts
   * Penny Hockey
   * **serverless-blog-creation**
+    * **WOOPS: Hugo blog post I can be proof of concept**
+      * **But currently, post extends beyond that, but doesn't include the steps I followed to actually make the working blog!!!**
     * XX Getting the domain name right for AWS Amplify Namecheap
     * Setting up test site
     * Comments with TalkYard
