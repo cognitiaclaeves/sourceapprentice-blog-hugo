@@ -14,7 +14,7 @@ draft: true
     * **WOOPS: Hugo blog post I can be proof of concept**
       * **But currently, post extends beyond that, but doesn't include the steps I followed to actually make the working blog!!!**
     * XX Getting the domain name right for AWS Amplify Namecheap
-    * Setting up test site
+    * XX Setting up test site
     * Comments with TalkYard
       * Setting discussionId
       * Toggling comments on/off
@@ -34,13 +34,13 @@ draft: true
         ***
 * Unimplemented Children Posts
   * About Me
-  * About Site
+  * XX About Site
     * Design Consideration
       * Minimalist/Functional UX
         * Eventually consistent styling
-      * Theme change: dark/light
-      * Theme choice: Solarized
-      * Thread / Series
+      * XX Theme change: dark/light
+      * XX Theme choice: Solarized
+      * XX Thread / Series
   * Blogolution - child links
     * ? - (Amplify links are drafts)
   * Serverless blog - child links
