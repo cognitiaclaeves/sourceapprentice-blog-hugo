@@ -22,14 +22,14 @@
 					{{ if .Site.Copyright }}
 						{{ .Site.Copyright }}
 					{{ else }}
-						Powered by <a href="https://gohugo.io/">Hugo</a> and the
-						<a href="https://github.com/bake/solar-theme-hugo">Solar</a>-theme.
+						Powered by <a href="https://gohugo.io/">Hugo</a> and a modified
+						<a href="https://github.com/cognitiaclaeves/solar-theme-hugo">Solarized theme</a> - Original <a href="https://github.com/bake/solar-theme-hugo">here</a>
 					{{ end }}
 				</p>
 			</footer>
 		</div>
 
-		{{ partial "footer.html" . }}
+		{{ partial "footer-skel.html" . }}
 		{{ partial "feather-script.html" . }}
 
 		<script>
