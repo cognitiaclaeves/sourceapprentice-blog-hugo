@@ -34,7 +34,6 @@ Here's my first attempt at fixing this:
 >
 > ping: cannot resolve test.sourceapprentice.com: Unknown host
 >
->   
 > // after a few minutes:
 >
 > $ ping test.sourceapprentice.com
@@ -57,13 +56,13 @@ With that out of the way, however, there is a wrinkle in this solution, that doe
 
 ![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/amplify-console-new-test-app-build-settings.png)I was then able to specify my build settings as desired.
 
-![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/amplify-console-build-new-test-app.png)But the build was a little odd. I wonder if that will cause an issue on the 77th build ... 
+![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/amplify-console-build-new-test-app.png)But the build was a little odd. I wonder if that will cause an issue on the 77th build ...
 
 The first thing I noticed after following the above steps was that everything was working. ... but I'm not sure that it should be, at this point. When I added the test branch to the (production) app earlier, it didn't work, until after I set up the test.sourceapprentice.com domain.
 
 I went to build it again, this time with the old theme, which I'm pretty sure won't work if the domain doesn't match. It appeared that it just wouldn't rebuild. But after refreshing the screen, I was able to restart the build, and I discovered that some kind of self-correction appeared to have been made:
 
-![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/amplify-console-build-new-test-app-self-corrected.png)Sure enough, switching to dark mode didn't work. I'll use this as my litmus test. First I need to change the subdomain for the (production) app off of the subdomain I plan on using for test: 
+![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/amplify-console-build-new-test-app-self-corrected.png)Sure enough, switching to dark mode didn't work. I'll use this as my litmus test. First I need to change the subdomain for the (production) app off of the subdomain I plan on using for test:
 
 ![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/amplify-console-domain-mgmt-test2-sa.png)Along with the matching NameCheap config:
 
@@ -83,4 +82,6 @@ After disabling for the root, and inputting the test subdomain:
 
 ![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/final-test-sa-solar-dark.png)Finally:
 
-![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/amplify-console-final-domain-mgmt-test-app.png)
+![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/amplify-console-final-domain-mgmt-test-app.png)And now that I've got a 'real' test environment not at all connected to my live site, I'm changing the Hugo build command to include future posts and drafts:
+
+    - hugo -t min_night --buildFuture --buildDrafts --config config.toml,config.sa.toml
