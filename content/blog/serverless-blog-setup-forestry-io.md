@@ -13,7 +13,7 @@ title = "Serverless Blog Setup - Forestry.io"
 +++
 When I envisioned setting up a server-less blog, I had thought I was going to need to build the piece that handled WYSIWYG Markdown editing as an AWS Amplify app. As a temporary measure, I used StackEdit.io as a way of writing the Markdown, but had some issues with it. When I couldn't get it to display content, and couldn't figure out why, I moved on to use GitLab's Web IDE. It was much friendly to use, in the sense that it took difficult to see/solve mysteries out of composing the posts, but it didn't manage media. This was what I had envisioned would make it necessary to build my own app.
 
-And then I found Forestry.io. 
+And then I found [Forestry.io](https://forestry.io "Forestry.io - a CMS for static blogs").
 
 ![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/forestry-io-blog-entry.png)
 
