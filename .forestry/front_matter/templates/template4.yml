@@ -52,5 +52,7 @@ fields:
   name: discussionId
   label: discussionId
 pages:
+- content/blog/serverless-blog-setup-forestry-io.md
+- content/about/the-site.md
 - content/blog/serverless-blog-setup-test-site.md
 - content/blog/serverless-blog-setup-aws-amplify-console-i.md
