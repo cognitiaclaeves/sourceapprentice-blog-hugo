@@ -10,6 +10,7 @@ draft: true
 ---
 * New Posts
   * Penny Hockey
+  * OpenCredo auto-versioning with ansible
   * **serverless-blog-creation**
     * **WOOPS: Hugo blog post I can be proof of concept**
       * **But currently, post extends beyond that, but doesn't include the steps I followed to actually make the working blog!!!**
