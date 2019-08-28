@@ -11,4 +11,4 @@ thread = "serverless-blog-setup"
 title = "Serverless Blog Setup - Forestry.io"
 
 +++
-WIP: Using Forestry.io :  (I did it the manual way because I had some issues with their 'fast' way -- for me, it just caused a lot of cursor spin when I tried to use that option.) Setup here: [https://forestry.io/docs/git-sync/manual-setup/#public-key](https://forestry.io/docs/git-sync/manual-setup/#public-key "https://forestry.io/docs/git-sync/manual-setup/#public-key")
+WIP: Using Forestry.io :  (I did it the manual way because I had some issues with their 'fast' way -- for me, it just caused a lot of cursor spin when I tried to use that option.) Instead, I used their [manual setup](https://forestry.io/docs/git-sync/manual-setup/#public-key "Forestry.io manual setup").
