@@ -6,7 +6,7 @@ discussionId = ""
 lastmod = ""
 orig_date = ""
 summary = ""
-tags = ["aws amplify", "walkthrough", "blogging", "high-level", "serverless blog"]
+tags = ["WIP Images", "aws amplify", "walkthrough", "blogging", "high-level", "serverless blog"]
 thread = "serverless-blog-setup"
 title = "Serverless Blog Setup - Test Site"
 
