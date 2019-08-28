@@ -55,8 +55,6 @@ And, of course:
 
 <div style="text-align: left"><img src="https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/test-sa-site-loaded.png" style="border: 1px solid;width: 60%;text-align: left;display: inline-block;"></div>
 
-![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/test-sa-site-loaded.png)
-
 Success!
 
 With that out of the way, however, there is a wrinkle in this solution, that does not fit my requirements: There is only one 'Build settings' option for the entire app, and I want to be able to work on new themes for the test instance, which is controlled in build settings.
@@ -111,19 +109,13 @@ After disabling for the root, and inputting the test subdomain:
 
 <div style="text-align: left"><img src="https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/test2-sa-solarized-dark.png" style="border: 1px solid;width: 60%;text-align: left;display: inline-block;"></div>
 
-![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/test2-sa-solarized-dark.png)
-
 I was able to switch themes on test2 ...
 
 <div style="text-align: left"><img src="https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/test-sa-min-night.png" style="border: 1px solid;width: 60%;text-align: left;display: inline-block;"></div>
 
-![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/test-sa-min-night.png)
-
 ... while having a different theme on test. ... One more test left:
 
 <div style="text-align: left"><img src="https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/final-test-sa-solar-dark.png" style="border: 1px solid;width: 60%;text-align: left;display: inline-block;"></div>
-
-![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/final-test-sa-solar-dark.png)
 
 Finally:
 
