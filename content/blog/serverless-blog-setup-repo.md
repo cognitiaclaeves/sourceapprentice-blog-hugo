@@ -46,4 +46,4 @@ The end-game for this blog is for it to be entirely accessible and for it to liv
 
 Then, when these changes are pushed to master, AWS Amplify infrastructure will build out the blog from the source and pulish the changes to the site.
 
-Next: [How to Set Up AWS Amplify Hugo Blog.](serverless-blog-setup-aws-amplify-console-i "Serverless blog setup with AWS Amplify Console").
+Next: [How to Set Up AWS Amplify Hugo Blog](serverless-blog-setup-aws-amplify-console-i "Serverless blog setup with AWS Amplify Console")
