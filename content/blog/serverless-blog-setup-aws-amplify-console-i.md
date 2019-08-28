@@ -4,12 +4,12 @@ comments = true
 date = "2019-08-04"
 discussionId = ""
 lastmod = "2019-08-25T04:00:00+00:00"
+notes = "Original date for merging Jekyll blog into Hugo blog: 2019-07-24"
 orig_date = "2019-07-20T05:00:00+00:00"
 summary = ""
-tags = ["walkthrough", "blogging", "high-level", "serverless blog"]
+tags = ["WIP", "aws amplify", "walkthrough", "blogging", "high-level", "serverless blog"]
 thread = "serverless-blog-setup"
 title = "Serverless Blog Setup - AWS Amplify Console"
-notes = "Original date for merging Jekyll blog into Hugo blog: 2019-07-24"
 
 +++
 I wasn't really sure how Amplify Console was going to work out for me, so I took a shortcut to testing out a [proof of concept](https://aws.amazon.com/amplify/console/getting-started/ "Get Started with Amplify Console"). When I started thinking about this, I had planned on building my own server-less components using Flask, Pelican, and a few clever lambdas. But I've also been meaning to start working with go -- so I figured I could give Hugo a try:
