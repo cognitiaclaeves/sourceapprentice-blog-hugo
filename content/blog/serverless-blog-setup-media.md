@@ -4,7 +4,7 @@ comments = true
 date = "2019-08-24T21:00:00+00:00"
 discussionId = ""
 summary = ""
-tags = ["unimplemented children", "aws s3", "forestry.io", "serverless blog", "high-level", "walkthrough", "blogging"]
+tags = ["aws s3", "forestry.io", "serverless blog", "high-level", "walkthrough", "blogging"]
 thread = "serverless-blog-setup"
 title = "Serverless Blog Setup - Media"
 
