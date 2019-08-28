@@ -21,8 +21,8 @@ draft: true
       * Don't forget to add test site to domain list!
     * Related posts
       * How I coded related posts
-    * Forestry.io !!
-      * [https://forestry.io/docs/git-sync/manual-setup/#public-key](https://forestry.io/docs/git-sync/manual-setup/#public-key "https://forestry.io/docs/git-sync/manual-setup/#public-key")
+    * XX Forestry.io !!
+      * XX [https://forestry.io/docs/git-sync/manual-setup/#public-key](https://forestry.io/docs/git-sync/manual-setup/#public-key "https://forestry.io/docs/git-sync/manual-setup/#public-key")
     * XX Set up media for forestry.io
     * XX Mirror gitlab repo to public github repo
     * Hugo Styles - Code blocks
