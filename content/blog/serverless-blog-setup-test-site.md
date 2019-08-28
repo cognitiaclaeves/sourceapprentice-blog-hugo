@@ -6,7 +6,7 @@ discussionId = ""
 lastmod = ""
 orig_date = ""
 summary = ""
-tags = ["aws amplify", "walkthrough", "blogging", "high-level", "serverless blog"]
+tags = ["WIP Images", "aws amplify", "walkthrough", "blogging", "high-level", "serverless blog"]
 thread = "serverless-blog-setup"
 title = "Serverless Blog Setup - Test Site"
 
@@ -52,6 +52,8 @@ Here's the NameCheap config:
 > 64 bytes from 143.204.158.70: icmp_seq=0 ttl=246 time=43.013 ms
 
 And, of course:
+
+<div style="text-align: left"><img src="https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/test-sa-site-loaded.png" style="border: 1px solid;width: 30%;text-align: left;display: inline-block;"></div>
 
 ![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/test-sa-site-loaded.png)
 
@@ -107,13 +109,19 @@ After disabling for the root, and inputting the test subdomain:
 
 ... but I hate waiting, so of course I'm going to check early:
 
+<div style="text-align: left"><img src="https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/test2-sa-solarized-dark.png" style="border: 1px solid;width: 30%;text-align: left;display: inline-block;"></div>
+
 ![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/test2-sa-solarized-dark.png)
 
 I was able to switch themes on test2 ...
 
+<div style="text-align: left"><img src="https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/test-sa-min-night.png" style="border: 1px solid;width: 30%;text-align: left;display: inline-block;"></div>
+
 ![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/test-sa-min-night.png)
 
 ... while having a different theme on test. ... One more test left:
+
+<div style="text-align: left"><img src="https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/final-test-sa-solar-dark.png" style="border: 1px solid;width: 30%;text-align: left;display: inline-block;"></div>
 
 ![](https://s3-us-east-2.amazonaws.com/sourceapprentice-blog-media/final-test-sa-solar-dark.png)
 
