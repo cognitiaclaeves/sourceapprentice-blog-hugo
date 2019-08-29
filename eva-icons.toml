@@ -1,8 +1,9 @@
-[svg_icons]
-    calendar = "<i data-eva="calendar-outline"></i>"
-    author = "<i data-eva="edit-2-outline"></i>"
-    tag = "<i data-eva="hash-outline"></i>"
-    data_type = "data-eva"
+[params]
+    svg_calendar = "calendar-outline"
+    svg_author = "edit-2-outline"
+    svg_tag = "hash-outline"
+    svg_clock = "clock-outline"
+    svg_data_type = "data-eva"
 
 # See https://akveo.github.io/eva-icons/#/?type=outline
 # The value of pre is the icon name
