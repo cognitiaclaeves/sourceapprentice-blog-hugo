@@ -1,6 +1,6 @@
-[submodule "themes/j-solarized"]
-	path = themes/j-solarized
-	url = https://github.com/cognitiaclaeves/solar-theme-hugo.git
+#[submodule "themes/j-solarized"]
+    # path = themes/j-solarized
+    # url = https://github.com/cognitiaclaeves/solar-theme-hugo.git
 	# url = git@github.com:cognitiaclaeves/solar-theme-hugo.git
 [submodule "themes/min_night"]
 	path = themes/min_night
@@ -12,5 +12,10 @@
 	url = https://github.com/cognitiaclaeves/solar-theme-hugo.git
 [submodule "themes/min_night_dev"]
 	path = themes/min_night_dev
-	url = git@github.com:cognitiaclaeves/min_night.git
+	url = https://github.com/cognitiaclaeves/min_night.git
+	# url = git@github.com:cognitiaclaeves/min_night.git
 	branch = sa-theme-updates
+[submodule "themes/j-solarized"]
+	path = themes/j-solarized
+	url = https://github.com/cognitiaclaeves/solar-theme-hugo.git
+	branch = master
