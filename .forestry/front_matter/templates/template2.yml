@@ -35,7 +35,6 @@ fields:
   name: discussionId
   label: discussionId
 pages:
-- todo/project-staticblogstateupdater.md
 - content/blog/serverless-blog-setup-media.md
 - content/blog/serverless-blog-setup-repo.md
 - content/blog/serverless-blog-setup-mirroring-gitlab-repo-to-github.md

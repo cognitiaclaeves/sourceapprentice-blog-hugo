@@ -26,3 +26,5 @@ fields:
 - type: boolean
   name: comments
   label: comments
+pages:
+- todo/project-staticblogstateupdater.md
