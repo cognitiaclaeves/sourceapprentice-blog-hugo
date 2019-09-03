@@ -31,6 +31,15 @@ fields:
   name: comments
   label: comments
   default: true
+- name: lastmod
+  type: datetime
+  label: last modified
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 - type: text
   name: discussionId
   label: discussionId
