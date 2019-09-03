@@ -12,10 +12,6 @@ fields:
   label: date
   config:
     required: true
-- type: text
-  name: author
-  label: author
-  default: cognitiaclaeves
 - type: list
   name: tags
   label: tags
@@ -43,6 +39,10 @@ fields:
 - type: text
   name: discussionId
   label: discussionId
+- type: text
+  name: author
+  label: author
+  default: cognitiaclaeves
 pages:
 - content/blog/devops-handbook-review.md
 - content/blog/serverless-blog-setup-media.md
