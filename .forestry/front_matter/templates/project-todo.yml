@@ -27,4 +27,5 @@ fields:
   name: comments
   label: comments
 pages:
+- todo/slacker.md
 - todo/project-staticblogstateupdater.md
