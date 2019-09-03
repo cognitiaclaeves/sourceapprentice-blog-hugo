@@ -12,9 +12,13 @@ fields:
   label: date
   config:
     required: true
-- type: list
-  name: tags
+- name: tags
+  type: tag_list
+  default: []
   label: tags
+- type: list
+  name: tags_old
+  label: tags_old
 - name: thread
   type: text
   config:
