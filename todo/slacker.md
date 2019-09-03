@@ -4,6 +4,7 @@ comments = false
 date = "2019-09-03T14:30:00+00:00"
 discussionId = ""
 draft = true
+lastmod = ""
 summary = "Lambda to send JSON to slack"
 tags = ["Slacker", "project"]
 thread = "Slacker"
