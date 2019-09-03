@@ -3,7 +3,7 @@ author = "cognitiaclaeves"
 comments = true
 date = "2019-09-01T20:00:00+00:00"
 discussionId = ""
-lastmod = ""
+lastmod = "2019-09-03T14:00:00+00:00"
 orig_date = ""
 summary = ""
 tags = ["talkyard.io", "walkthrough", "blogging", "high-level", "serverless blog"]
@@ -36,8 +36,8 @@ Additionally, I did something a little different, with concern to the hugo templ
     	</comments>
     {{ end }}
 
-The suggestion to provide for a way to override the discussion id is given in the Talkyard documentation. It is suggested to prevent the change of the URL from causing an apparent loss of the comments. However, this means that a matching discussion id needs to be determined when this happens. Since it's not set, it wasn't clear to me what change would need to happen. I can just imagine trying to figure out what change I needed to make when this comes up a single time in a few years.
+The suggestion to provide for a way to override the `discussionId` is given in the Talkyard documentation. It is suggested to prevent the change of the URL from causing an apparent loss of the comments. However, this means that a matching `discussionId` needs to be determined when this happens. Since it's not already set by default, it wasn't clear to me what change would need to happen when I imagined imagine trying to figure out what change I would need to make when this comes up a single time in a few years.
 
-With my approach, the base file name is used by default -- no need to even manipulate the front matter, either when the post is made or if the URL is changed -- it will be the same. (Because it's far less likely that the filename will be changed.) -- But, in the case that the filename is changed, the HTML source will show the original discussionId before the change is made, which will just need to be put into the front matter to override the new default.
+With my approach, the base file name is used by default -- no need to even manipulate the front matter, either when the post is made or if the URL is changed -- it will be the same. (Because it's far less likely that the filename will be changed.) -- But, in the case that the filename is changed, the HTML source will show the original `discussionId` before the change is made, which will just need to be put into the front matter to override the new default.
 
-There's one other thing built into the code block above: If a setting for the 'comments' field in the front matter does not evaluate to True, then the comment block won't even be displayed.
+There's one other thing built into the code block above: If a setting for the `comments` field in the front matter does not evaluate to True, then the comment block won't even be displayed.
