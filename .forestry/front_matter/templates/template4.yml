@@ -12,9 +12,13 @@ fields:
   name: author
   label: author
   default: cognitiaclaeves
-- type: list
-  name: tags
+- name: tags
+  type: tag_list
+  default: []
   label: tags
+- type: list
+  name: tags_old
+  label: tags_old
   default:
   - walkthrough
   - blogging
@@ -52,7 +56,8 @@ fields:
   name: discussionId
   label: discussionId
 pages:
+- content/blog/serverless-blog-setup-talkyard-comments.md
 - content/blog/serverless-blog-setup-test-site.md
+- content/about/the-site.md
 - content/blog/serverless-blog-setup-forestry-io.md
 - content/blog/serverless-blog-setup-aws-amplify-console-i.md
-- content/about/the-site.md

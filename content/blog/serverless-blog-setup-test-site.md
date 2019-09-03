@@ -3,10 +3,10 @@ author = "cognitiaclaeves"
 comments = true
 date = "2019-08-27T05:45:00+00:00"
 discussionId = ""
-lastmod = ""
+lastmod = "2019-08-29T14:41:00+00:00"
 orig_date = ""
 summary = ""
-tags = ["WIP Images", "aws amplify", "walkthrough", "blogging", "high-level", "serverless blog"]
+tags = ["aws amplify", "walkthrough", "blogging", "high-level", "serverless blog"]
 thread = "serverless-blog-setup"
 title = "Serverless Blog Setup - Test Site"
 
@@ -124,3 +124,5 @@ Finally:
 And now that I've got a 'real' test environment not at all connected to my live site, I'm changing the Hugo build command to include future posts and drafts:
 
     - hugo -t min_night --buildFuture --buildDrafts --config config.toml,config.sa.toml
+    
+Update: It wasn't long before the notion of a test subdomain became confusing for me. I finally settled on a separate dev app pointed to the test branch that I could potentially break by changing configuration, which I could use to work on a new theme, where drafts and future posts were included in the generation, and a pre-live instance, also pointed to the test branch, which would generate the content exactly as it would be seen in the live site.

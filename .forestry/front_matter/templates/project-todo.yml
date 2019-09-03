@@ -1,28 +1,19 @@
 ---
-label: Main Template
+label: Project TODO
 hide_body: false
 fields:
 - type: text
   name: title
   label: title
-  config:
-    required: true
 - type: datetime
   name: date
   label: date
-  config:
-    required: true
 - name: tags
   type: tag_list
   default: []
   label: tags
-- type: list
-  name: tags_old
-  label: tags_old
-- name: thread
-  type: text
-  config:
-    required: false
+- type: text
+  name: thread
   label: thread
 - type: text
   name: summary
@@ -36,19 +27,16 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-- type: boolean
-  name: comments
-  label: comments
-  default: true
 - type: text
   name: discussionId
   label: discussionId
 - type: text
   name: author
   label: author
-  default: cognitiaclaeves
+- type: boolean
+  name: comments
+  label: comments
 pages:
-- content/blog/devops-handbook-review.md
-- content/blog/serverless-blog-setup-media.md
-- content/blog/serverless-blog-setup-repo.md
-- content/blog/serverless-blog-setup-mirroring-gitlab-repo-to-github.md
+- todo/project-blog-announcer.md
+- todo/slacker.md
+- todo/project-staticblogstateupdater.md
