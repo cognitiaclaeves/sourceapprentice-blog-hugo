@@ -3,12 +3,6 @@ label: Project TODO
 hide_body: false
 fields:
 - type: text
-  name: author
-  label: author
-- type: boolean
-  name: comments
-  label: comments
-- type: text
   name: title
   label: title
 - type: datetime
@@ -26,3 +20,9 @@ fields:
 - type: text
   name: discussionId
   label: discussionId
+- type: text
+  name: author
+  label: author
+- type: boolean
+  name: comments
+  label: comments
