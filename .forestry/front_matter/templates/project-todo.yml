@@ -17,6 +17,15 @@ fields:
 - type: text
   name: summary
   label: summary
+- name: lastmod
+  type: datetime
+  label: last modified
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 - type: text
   name: discussionId
   label: discussionId
