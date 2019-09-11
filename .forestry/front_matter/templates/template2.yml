@@ -48,6 +48,7 @@ fields:
   label: author
   default: cognitiaclaeves
 pages:
+- content/blog/workstuff-and-birds-of-prey.md
 - content/blog/devops-handbook-review.md
 - content/blog/serverless-blog-setup-media.md
 - content/blog/serverless-blog-setup-repo.md
