@@ -11,7 +11,9 @@ draft: true
 * New Posts
   * Penny Hockey
   * OpenCredo auto-versioning with ansible
-  * Werkzeug and Falcon
+  * Job-search: Werkzeug and Falcon
+  * Job-search: Spring boot app:
+    * [https://docs.google.com/presentation/d/1E35gfWwxUpwsKRt6S6zqkHs2sUTsxAX_OqUmDAiNvSo/edit#slide=id.g5f97bca8b8_0_53](https://docs.google.com/presentation/d/1E35gfWwxUpwsKRt6S6zqkHs2sUTsxAX_OqUmDAiNvSo/edit#slide=id.g5f97bca8b8_0_53 "My liatrio presentation")
   * git submodules for hugo themes
     * [https://www.activestate.com/blog/getting-git-submodule-track-branch/](https://www.activestate.com/blog/getting-git-submodule-track-branch/ "https://www.activestate.com/blog/getting-git-submodule-track-branch/")
   * **serverless-blog-creation**
