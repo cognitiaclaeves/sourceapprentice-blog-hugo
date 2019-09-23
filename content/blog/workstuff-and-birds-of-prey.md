@@ -30,7 +30,7 @@ Note: If, for some reason the link above doesn't work, the source code should be
 
 In the example above, `dispatch&lowbar;request()` is called from `wsgi&lowbar;app()`, which appears to be called by implementing `&lowbar;&lowbar;call&lowbar;&lowbar;().` The execution of `dispatch&lowbar;request()` results in the execution of functions such as `on&lowbar;new&lowbar;url()`, where `new&lowbar;url` matches the endpoint of the url passed into the application.
 
-As mentioned in the example, it's pretty much turtles all the way down. But what's interesting about this example, is that it almost seems that falcon's framework appears to build on this example, even though I think the implementation of the example itself might be pretty arbitrary. Maybe it's not as arbitrary as it seems to me. Maybe I'm just not looking deep enough.
+As mentioned in the example, it's pretty much turtles all the way down. But what's interesting about this example, is that it almost seems that falcon's framework appears to build on this example, even though I think the implementation of the example itself might be pretty arbitrary. Maybe it's not as arbitrary as it seems to me.
 
 ## [falcon](https://falcon.readthedocs.io/en/stable/ "Python falcon")
 
